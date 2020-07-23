@@ -1,0 +1,89 @@
+html,
+body {
+  height: 100%;
+}
+.body {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #93c47d;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.input,
+.skill {
+  width: 300px;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+}
+
+.skill {
+  color: #ff9b03;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.btn {
+  margin-left: auto;
+  padding: 5px;
+  height: 34px;
+  border: #93c47d solid 2px;
+  color: #93c47d;
+  margin-right: 0;
+}
+
+.box {
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  border: #93c47d solid 2px;
+}
+
+.x {
+  font-weight: normal;
+  display: inline-block;
+  width: 23px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #e06666;
+  color: white;
+  font-size: 15px;
+  margin-right: auto;
+  padding: 0;
+}
+
+.save {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  padding: 5px;
+  height: 34px;
+  border: #e06666 solid 2px;
+  color: #e06666;
+}
